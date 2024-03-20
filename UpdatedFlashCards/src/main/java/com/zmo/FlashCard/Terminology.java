@@ -1,4 +1,4 @@
-package FlashCard;
+package com.zmo.FlashCard;
 
 public class Terminology {
     private String term;

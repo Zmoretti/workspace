@@ -1,4 +1,4 @@
-package FlashCard;
+package com.zmo.FlashCard;
 
 import java.util.ArrayList;
 import java.util.List;
