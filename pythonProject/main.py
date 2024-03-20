@@ -22,9 +22,9 @@ pygame.display.set_caption("Pong")
 font = pygame.font.SysFont(None, FONT_SIZE)
 
 try:
-    paddle1_image = pygame.image.load(r"C:\Users\Zach\Documents\pythonProject\pngtree-hot-dog-food-realistic-element-png-image_5199484.png").convert_alpha()
-    paddle2_image = pygame.image.load(r"C:\Users\Zach\Documents\pythonProject\hot-dog-johanna-parkin.jpg").convert_alpha()
-    ball_image = pygame.image.load(r"C:\Users\Zach\Documents\pythonProject\ninja.png").convert_alpha()
+    paddle1_image = pygame.image.load(r"pngtree-hot-dog-food-realistic-element-png-image_5199484.png").convert_alpha()
+    paddle2_image = pygame.image.load(r"hot-dog-johanna-parkin.jpg").convert_alpha()
+    ball_image = pygame.image.load(r"pythonProject/ninja.png").convert_alpha()
     paddle_width = 100
     paddle_height = 50
     paddle1_image = pygame.transform.scale(paddle1_image, (paddle_width, paddle_height))
