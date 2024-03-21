@@ -16,10 +16,19 @@ public class TerminologyBank {
     }
 
     // Method to get terminologies, possibly filtered by chapter
-    public List<Terminology> getTerminologiesByChapter(String chapter) {
-        return terminologies.stream()
-                .filter(t -> t.getChapter().equals(chapter))
-                .collect(Collectors.toList());
-    }
+//    public List<Terminology> getTerminologiesByChapter(String chapter) {
+//        return terminologies.stream()
+//                .filter(t -> t.getChapter().equals(chapter))
+//                .collect(Collectors.toList());
+//    }
 
+    public List<Terminology> getTerminologiesByChapter(String chapter) {
+        List<Terminology> result = new ArrayList<>();
+        for (Terminology term : terminologies) {
+            if (term.getChapter().equals(chapter)) {
+                result.add(term);
+            }
+        }
+        return result;
+    }
 }

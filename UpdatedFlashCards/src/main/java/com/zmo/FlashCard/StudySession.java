@@ -101,6 +101,21 @@ public class StudySession {
             System.out.println("Definition: " + term.getDefinition());
         }
     }
+    public void startMultipleChoiceQuiz(MultipleChoiceQuestion question) {
+        System.out.println("Question:");
+        System.out.println(question.getDefinition());
+
+        // Get user input
+        System.out.print("Enter your choice: ");
+        int selectedOptionIndex = scanner.nextInt();
+
+        // Check answer
+        if (question.getCorrectOptionIndex() == selectedOptionIndex) {
+            System.out.println("Correct answer!");
+        } else {
+            System.out.println("Incorrect answer. The correct answer is: " + question.getOptions().get(question.getCorrectOptionIndex()));
+        }
+    }
 }
 
 

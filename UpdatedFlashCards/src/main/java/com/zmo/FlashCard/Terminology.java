@@ -23,4 +23,16 @@ public class Terminology {
     public String getChapter() {
         return chapter;
     }
+
+    public void setTerm(String term) {
+        this.term = term;
+    }
+
+    public void setDefinition(String definition) {
+        this.definition = definition;
+    }
+
+    public void setChapter(String chapter) {
+        this.chapter = chapter;
+    }
 }

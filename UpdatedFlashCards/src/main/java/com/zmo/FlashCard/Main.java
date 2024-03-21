@@ -13,9 +13,7 @@ public class Main {
         String username = "postgres1";
         String password = "postgres1";
 
-        //TerminologyBank terminologyBank = new TerminologyBank();
 
-        // Add sample terminology
 Terminology[] terminologies = {
 new Terminology("Polymorphism", "The ability of an object to take on many forms.", "1"),
 new Terminology("Inheritance", "The mechanism in Java by which one class is allowed to inherit the features (fields and methods) of another class.", "1"),
@@ -23,8 +21,7 @@ new Terminology("Casting", "allows us to convert one data type into another", "1
 new Terminology("widening", "Automatic Conversion, No Data Loss, Implicit Conversion - programmers don't need to perform explicit casting, making the code cleaner and less prone to errors", "1"),
 new Terminology("narrowing", "Control and Precision,Memory Efficiency,Specificity", "1"),
 new Terminology("truncation", " refers to the process of shortening or cutting off the precision or length of a value", "1"),
-
-                new Terminology("primitive data types","Java has eight primitive data types, which are the building blocks of data manipulation","1"),
+new Terminology("primitive data types","Java has eight primitive data types, which are the building blocks of data manipulation","1"),
 new Terminology("Java Virtual Machine (JVM)","It converts Java bytecode into machine language","1"),
 new Terminology("Java Runtime Environment (JRE)","software layer that runs on top of a computer's operating system software and provides the class libraries and other resources that a specific Java program needs to run","1"),
 new Terminology("Java Development Kit (JDK)","The Java Development Kit is a distribution of Java technology by Oracle Corporation. It implements the Java Language Specification and the Java Virtual Machine Specification and provides the Standard Edition of the Java Application Programming Interface","1"),
@@ -222,7 +219,7 @@ new Terminology("derived property","properties whose default value is calculated
 new Terminology("key/value pair","consists of two related data elements: A key, which is a constant that defines the data set (e.g., gender, color, price), and a value, which is a variable that belongs to the set","1"),
 
 new Terminology("Overloading","having two or more methods (or functions) in a class with the same name and different arguments (or parameters)","1"),
-////
+
 new Terminology("superclass","The class from which the subclass is derived","1"),
 
         new Terminology("subclass", "A class that inherits from another class, also known as a derived class.", "1"),
